@@ -150,6 +150,6 @@ STATIC_URL = '/static/'
 # https://warehouse.python.org/project/whitenoise/
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-ALLOWED_HOSTS = ['dry-garden-74501.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['django-mdn-tutorial.herokuapp.com','127.0.0.1', 'localhost']
 # For example: 
 # ALLOWED_HOSTS = ['fathomless-scrubland-30645.herokuapp.com', '127.0.0.1']
